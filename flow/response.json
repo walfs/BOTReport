@@ -1,0 +1,163 @@
+{
+    "DEFAULT":{
+        "replyMessage":[
+            "No he logrado encontrar la categoria 😕​ aun estoy en proceso de apredizaje para mejorar tu experiencia\n\n",
+            "Prueba escribiendo *ayuda* para volver al menu principal 🙂​\n" 
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_0":{
+        "replyMessage":[
+            "El flujo ha finalizado \n",
+            "",
+            ""
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_1":{
+        "replyMessage":[
+            "Bienvenido al reporte de incidencias *Falabella Antofagasta* \n",
+            "Para ayudarte a conocer las opciones presiona *(1)* \n",
+            "\n.Si necesitas ayuda con tu cuenta",
+            " escribe *NT*, *SRX*, *MSTR* o *Siebel*"
+        ],
+        "media":"#",
+        "trigger":null,
+        "actions":{
+            "title":"¿Que deseas reportar?",
+            "message":"Recuerda validar la incidencia antes de reportar",
+            "footer":"Gracias",
+            "buttons":[
+                {"body":"Calzado varon"},
+                {"body":"Click and Collcet"},
+                {"body":"Trastienda"}
+            ]
+        }
+    },
+    "STEP_2":{
+        "replyMessage":[
+            "Perfecto, te voy a pasar la lista ",
+            "de los temas que tengo y un breve video 🙂🤖 \n\n",
+            "*Angular* Basico (Pago) \n",
+            "*Angular* Basico (Gratis) \n",
+            "*Node* Basico (Gratis) \n",
+            "*NGRX* Basico (Gratis) \n",
+            "*AWS* Basico (Pago) \n\n",
+            "Escribe la palabra del tema que te interese \n"
+        ],
+        "media":"https://i.giphy.com/media/5J5gN0WUk0VToHaK2p/giphy-downsized.gif",
+        "trigger":null
+    },
+    "STEP_2_1":{
+        "replyMessage":[
+            "Si tienes problemas con tu *contrasena* de tu correo corporativo\n",
+            "*(Mesa de ayuda Falabella)* +56223859192 \n\n"
+            
+        ],
+        "media":"#",
+        "trigger":null
+    },
+    "STEP_2_2":{
+        "replyMessage":[
+            "Si deseas *cambiar* la contrasena de tu cuenta en SRX \n",
+            "Ingresa a Falanet - *Aplicativos/RTL-Chile* \n\n",
+            "Recuerda sacarle una foto a tu contrasena temporal antes de cerrar la ventan 📸​"
+           
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_3":{
+        "replyMessage":[
+            "Si deseas *cambiar* la contrasena de Microstrategy\n",
+            "Ingresa a Falanet - *Aplciativos/Microstrategy* \n\n",
+            "Si tienes problemas para cambiar la contrasena, contactar al *Operador*"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_4":{
+        "replyMessage":[
+            "Si tienes problemas con el acceso a Siebel \n",
+            "*(Por inactividad)* Contactar al *Operador* \n"
+            
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_3":{
+        "replyMessage":[
+            "Perfecto, te voy a pasar la lista de la categoria afectada: \n",
+            "Click and Collect -> *(2)* \n",
+            "Control de acceso -> *(3)* \n",
+            "Ipad -> *(4)* \n",
+            "POS/SCO/POSMobiel -> *(5)* \n",
+            "Pistolas y etiquetadoras -> *(6)* \n",
+            "Kioscos/Venta Guiada -> *(7)* \n",
+            "PDA -> *(8)* \n",
+            "Connect -> *(9)* \n",
+            "Otros equipos tienda -> *(9)* \n"
+
+
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_4":{
+        "replyMessage":[
+            "Con gusto! \n"
+        ],
+        "media":"#",
+        "trigger":null
+    },
+    "STEP_5":{
+        "replyMessage":[
+            "Que describe mejor tu problema? \n",
+            "Impresora OMS -> *(I)*\n",
+            "Turnero -> *(T)*\n",
+            "Indisponibilidad general -> *(IG)*\n\n",
+            "Si no se encuentra la categoria favor escribirla acontinuacion \n"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_5_1":{
+        "replyMessage":[
+            "***Impresora OMS*** \n",
+            "Incidencia en analisis, Volver al menu principal *(Menu)* \n"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_6":{
+        "replyMessage":[
+            "Perfecto, te voy a pasar la lista ",
+            "de los temas que tengo y un breve video 🙂🤖 \n\n",
+            "*Angular* Basico (Pago) \n",
+            "*Angular* Basico (Gratis) \n",
+            "*Node* Basico (Gratis) \n",
+            "*NGRX* Basico (Gratis) \n",
+            "*AWS* Basico (Pago) \n\n",
+            "Escribe la palabra del tema que te interese \n"
+        ],
+        "media":"https://i.giphy.com/media/5J5gN0WUk0VToHaK2p/giphy-downsized.gif",
+        "trigger":null
+    },
+    "STEP_7":{
+        "replyMessage":[
+            "Vente al telegram \n",
+            "https://t.me/leifermendez \n"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_8":{
+        "replyMessage":[
+            "Esto es una nota de voz \n"
+        ],
+        "media":"nota-de-voz.mp3",
+        "trigger":null
+    }
+}

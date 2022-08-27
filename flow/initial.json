@@ -1,0 +1,114 @@
+[
+    {
+        "keywords":  [
+            "hola",
+            "hola!",
+            "ola",
+            "problema",
+            "inicio",
+            "reportar",
+            "welcome",
+            "buenos días",
+            "buenas tardes",
+            "buenas noches",
+            "ayuda",
+            "falabella",
+            "antofagasta",
+            "necesito saber"
+        ],
+        "key": "STEP_1"
+    },
+    {
+        "keywords":  [
+            "NT",
+            "SRX",
+            "MSTR"        ],
+        "key": "STEP_2"
+    },
+    {
+        "keywords":  [
+            "NT",
+            "Nt",
+            "nt"
+        ],
+        "key": "STEP_2_1"
+    },
+    {
+        "keywords":  [
+            "SRX",
+            "srx",
+            "Srx"
+        ],
+        "key": "STEP_2_2"
+    },
+    {
+        "keywords":  [
+            "MSRT",
+            "mstr",
+            "Msrt"
+        ],
+        "key": "STEP_2_3"
+    },
+    {
+        "keywords":  [
+            "Siebel"
+        ],
+        "key": "STEP_2_4"
+    },
+    {
+        "keywords":  [
+            "1",
+            "Uno",
+            "UNO",
+            "Opciones",
+            "Lista",
+            "Menu",
+            "MENU"
+        ],
+        "key": "STEP_3"
+    },
+    {
+        "keywords":  [
+            "muchas gracias",
+            "ok",
+            "chao",
+            "gracias",
+            "vale gracias"
+        ],
+        "key": "STEP_4"
+    },
+    {
+        "keywords":  [
+            "2",
+            "dos"
+        ],
+        "key": "STEP_5"
+    },
+    {
+        "keywords":  [
+            "I",
+            "i",
+            ""
+        ],
+        "key": "STEP_5_1"
+    },
+    {
+        "keywords":  [
+            "VER_CURSOS"
+        ],
+        "key": "STEP_6"
+    },
+    {
+        "keywords":  [
+            "telegram"
+        ],
+        "key": "STEP_7"
+    },
+    {
+        "keywords":  [
+            "audio"
+        ],
+        "key": "STEP_8"
+    }
+   
+]
