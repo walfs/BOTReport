@@ -50,7 +50,7 @@ await sendMessageButton(
         "message":"Recordar analizar la incidencia antes de reportar",
         "footer":"Gracias",
         "buttons":[
-            {"body":"😎 Incidencias"},
+            {"body":"🛠 Incidencias"},
             {"body":"👉 Preguntas frecuentes"},
             {"body":"😁 Uso del BOT"}
         ]
