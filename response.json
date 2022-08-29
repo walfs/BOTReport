@@ -1,0 +1,165 @@
+{
+    "DEFAULT":{
+        "replyMessage":[
+            "No he logrado encontrar la categoria 😕​ aun estoy en proceso de apredizaje para mejorar tu experiencia\n\n",
+            "Prueba escribiendo *ayuda* para volver al menu principal 🙂​\n" 
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_0":{
+        "replyMessage":[
+            "El flujo ha finalizado \n",
+            "",
+            ""
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_1":{
+        "replyMessage":[
+            "👋 ¡Hola! Soy Lab, bot de soporte de incidencias en Falabella Antofagasta 🦾 \n\n",
+            "Estoy aqui para ayudarte y hacer frente ante cualquier incidencia escribe *(0)* para inciar.\n\n",
+            "Puedes escribir *menú* en cualquier punto de la conversacion para ver todo lo que puedo hacer ✌\n\n",
+            "Si tienes dudas o eres nuevo/a colaborador intenta escribiendo... \n\n",
+            "*NT* - *SRX* - *MSTR* - *Siebel* \n",
+            "o bien, *lista* de preguntas frecuentas \n"
+        ],
+        "media":"STEP_2_2.png",
+        "trigger":null,
+        "actions":{
+            "title":"¿Que deseas reportar?",
+            "message":"Recuerda validar la incidencia antes de reportar",
+            "footer":"Gracias",
+            "buttons":[
+                {"body":"Calzado varon"},
+                {"body":"Click and Collcet"},
+                {"body":"Trastienda"}
+            ]
+        }
+    },
+    "STEP_2":{
+        "replyMessage":[
+            "Bien, al parecer tienes dudas o problemas con tu correo corporativo... \n",
+            "éstas opciones te pueden ser de utilidad \n\n",
+            "*(21)* No me sé la contraseña de mi cuenta\n",
+            "*(22)* ¿Cómo puedo cambiar la contraseña?\n",
+            "*(23)* ¿Cómo saber el nombre de mi correo corporativo?\n"
+        ],
+        "media":"#",
+        "trigger":null
+    },
+    "STEP_2_1":{
+        "replyMessage":[
+            "Bien, para restablecer tu contraseña de tu cuenta NT y puedas iniciar sesion en tu PC, Venta Guiada, Correo, Digital Workplace, entre otros\n\n",
+            "El flujo más rápido es llamando a la mesa de ayuda, 📱 *+56223859192* \n",
+            "te pediran que te identifiques, nombre y rut. Luego te asignaran una nueva contraseña. \n\n",
+
+            "Para volver al apartado anterior *NT* o bien, ir al inicio de la conversacion *menú* \n"                           
+        ],
+        "media":"#",
+        "trigger":null
+    },
+    "STEP_2_2":{
+        "replyMessage":[
+            "Para cambiar la contraseña de tu correo corporativo lo puedes hacer de dos formas: \n\n",
+            "Ingresando desde cualquier navegador y red a https://www.office.com \n\n",
+            "Y desde la red Falabella de la tienda ingresando a https://apps.falabella.com/\n​",
+            "- ingresar las credenciales de la cuenta\n​",
+            "- Esquina superior derecha seleccionar *cambiar contraseña*\n\n​",
+
+            "Para volver al apartado anterior *NT* o bien, ir al inicio de la conversacion *menú* \n"  
+           
+        ],
+        "media":"#",
+        "trigger":null
+    },
+    "STEP_2_3":{
+        "replyMessage":[
+            "Perfecto, si no sabes el nombre de tu cuenta NT o correo corporativo debes dirigirte a *RRHH* para que te indiquen el nombre de tu cuenta, normalmente empieza con tu incial del primero nombre luego parte de tu segundo nombre y finaliza con tu primer apellido\n\n",
+           
+            "Para volver al apartado anterior *NT* o bien, ir al inicio de la conversacion *menú* \n"  
+       
+        ],
+        "media":null,
+        "trigger":null
+    },
+    
+    "STEP_3":{
+        "replyMessage":[
+            "Perfecto, al parecer tienes dudas o problemas con tu cuenta en SRX... \n",
+            "*(31)* ¿Cómo puedo cambiar la contraseña de mi cuenta en SRX? \n",
+            "*(32)* ¿Cómo saber si engo cuenta en SRX?\n",
+            "*(33)* ¿Cómo solicitar una cuenta? \n\n"
+
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_3_1":{
+        "replyMessage":[
+            "Para hacer el cambio debes ingresar a tu Falanet desde red Falabella y Microsoft Edge \n",
+            "Luego debes dirigirte al apartado de *Aplicaciones/RTL-Chile* y seleccionar cambiar contraseña \n\n",
+
+            "Para volver al apartado anterior *SRX* o bien, ir al inicio de la conversacion *menú* \n"  
+        ],
+        "media":"#",
+        "trigger":null
+    },
+    "STEP_5":{
+        "replyMessage":[
+            "Que describe mejor tu problema? \n",
+            "Impresora OMS -> *(I)*\n",
+            "Turnero -> *(T)*\n",
+            "Indisponibilidad general -> *(IG)*\n\n",
+            "Si no se encuentra la categoria favor escribirla acontinuacion \n"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_5_1":{
+        "replyMessage":[
+            "***Impresora OMS*** \n",
+            "Incidencia en analisis, Volver al menu principal *(Menu)* \n"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_6":{
+        "replyMessage":[
+            "Perfecto, te voy a pasar la lista ",
+            "de los temas que tengo y un breve video 🙂🤖 \n\n",
+            "*Angular* Basico (Pago) \n",
+            "*Angular* Basico (Gratis) \n",
+            "*Node* Basico (Gratis) \n",
+            "*NGRX* Basico (Gratis) \n",
+            "*AWS* Basico (Pago) \n\n",
+            "Escribe la palabra del tema que te interese \n"
+        ],
+        "media":"https://i.giphy.com/media/5J5gN0WUk0VToHaK2p/giphy-downsized.gif",
+        "trigger":null
+    },
+    "STEP_7":{
+        "replyMessage":[
+            "Vente al telegram \n",
+            "https://t.me/leifermendez \n"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_8":{
+        "replyMessage":[
+            "Click and Collect -> *(2)* \n",
+            "Control de acceso -> *(3)* \n",
+            "Ipad -> *(4)* \n",
+            "POS/SCO/POSMobiel -> *(5)* \n",
+            "Pistolas y etiquetadoras -> *(6)* \n",
+            "Kioscos/Venta Guiada -> *(7)* \n",
+            "PDA -> *(8)* \n",
+            "Connect -> *(9)* \n",
+            "Otros equipos tienda -> *(9)* \n"
+        ],
+        "media":"nota-de-voz.mp3",
+        "trigger":null
+    }
+}
