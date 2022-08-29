@@ -47,12 +47,12 @@ const { sendMessageButton } = require('./controllers/send')
 await sendMessageButton(
     {
         "title":"¿Que te interesa ver?",
-        "message":"Recuerda todo este contenido es gratis y estaria genial que me siguas!",
+        "message":"Recordar analizar la incidencia antes de reportar",
         "footer":"Gracias",
         "buttons":[
-            {"body":"😎 Cursos"},
-            {"body":"👉 Youtube"},
-            {"body":"😁 Telegram"}
+            {"body":"😎 Incidencias"},
+            {"body":"👉 Preguntas frecuentes"},
+            {"body":"😁 Uso del BOT"}
         ]
     }
 )
