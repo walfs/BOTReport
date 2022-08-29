@@ -111,7 +111,7 @@ __Ejecutar el script__
 
 __Whatsapp en tu celular__
 > Abrir la aplicación de Whatsapp en dispositivo y escanear el código QR
-<img src="https://i.imgur.com/RSbPtat.png" width="500"  />
+
 Visitar la pagina 
 `http://localhost:3000/qr` 
 
