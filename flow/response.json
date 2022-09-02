@@ -1,7 +1,7 @@
 {
     "DEFAULT":{
         "replyMessage":[
-            "No he logrado encontrar la categoria 😕​ aun estoy en proceso de apredizaje para mejorar tu experiencia\n\n",
+            "¡Gracias, lo tomaré en cuenta!\n\n",
             "Prueba escribiendo *ayuda* para volver al menu principal 🙂​\n" 
         ],
         "media":null,
@@ -9,9 +9,17 @@
     },
     "STEP_0":{
         "replyMessage":[
-            "El flujo ha finalizado \n",
-            "",
-            ""
+            "Bienvenido a la lista de incidencias a reportar, favor analizar y seleccionar la categoria correspondiente \n\n",
+            "*(1)* Abastecimiento\n",
+            "*(2)* Click and Collect\n",
+            "*(3)* Control de acceso\n",
+            "*(4)* Ipad\n",
+            "*(5)* POS/SCO/POSMobiel\n",
+            "*(6)* Pistolas y etiquetadoras\n",
+            "*(7)* Kioscos/Venta Guiada\n",
+            "*(8)* PDA\n",
+            "*(9)* Connect\n",
+            "*(10)* Otros equipos tienda\n"
         ],
         "media":null,
         "trigger":null
@@ -81,7 +89,7 @@
         "replyMessage":[
             "Perfecto, al parecer tienes dudas o problemas con tu cuenta en SRX... \n",
             "*(31)* ¿Cómo puedo cambiar la contraseña de mi cuenta en SRX? \n",
-            "*(32)* ¿Cómo saber si engo cuenta en SRX?\n",
+            "*(32)* ¿Cómo saber si tengo cuenta en SRX?\n",
             "*(33)* ¿Cómo solicitar una cuenta? \n\n"
 
         ],
@@ -95,7 +103,7 @@
 
             "Para volver al apartado anterior *SRX* o bien, ir al inicio de la conversacion *menú* \n"  
         ],
-        "media":"#",
+        "media":"Autoreseteo SRX_RTL.pdf",
         "trigger":null
     },
     "STEP_3_2":{
@@ -109,8 +117,8 @@
     },
     "STEP_3_3":{
         "replyMessage":[
-            "Para solcitar la creacion de una cuenta en SRX debes solicitarlo con tu jefatura directa para que genere la solicitud.\n",
-            "Si por algun motivo se desconoce o se cuenta con problemas para la generacion de la cuenta en SRX enviar correo al operador de tienda facilitando los datos del colaborador. \n\n",  
+            "Para solicitar una cuenta en SRX debe ser canalizada en el portal Digital Workplace, en formulario *Solicitud gestion de cuentas SRX-RTL *\n",
+            " Caso de no poder generar la solicitud, contactar con el Operador de tienda \n\n",
             "Para volver al apartado anterior *SRX* o bien, ir al inicio de la conversacion *menú* \n"  
         ],
         "media":null,
@@ -138,17 +146,79 @@
     },
     "STEP_4_2":{
         "replyMessage":[
-            "Click and Collect -> *(2)* \n",
-            "Control de acceso -> *(3)* \n",
-            "Ipad -> *(4)* \n",
-            "POS/SCO/POSMobiel -> *(5)* \n",
-            "Pistolas y etiquetadoras -> *(6)* \n",
-            "Kioscos/Venta Guiada -> *(7)* \n",
-            "PDA -> *(8)* \n",
-            "Connect -> *(9)* \n",
-            "Otros equipos tienda -> *(9)* \n"
+            "Si no puedes hacer uso de Moeny Mapping es porque no tienes asignada las licencias correspondientes\n",
+            "Para regularizar la cuenta debes contactar con el operador de tienda o llamar a la mesa de ayuda \n\n",
+            "Para volver al apartado anterior *MSTR* o bien, ir al inicio de la conversacion *menú* \n" 
         ],
         "media":"#",
+        "trigger":null
+    },
+    "STEP_4_3":{
+        "replyMessage":[
+            "Si no cuentas con las credenciales de acceso para el Money Mapping debes contactar con el operador de tienda\n",
+            "Para volver al apartado anterior *MSTR* o bien, ir al inicio de la conversacion *menú* \n" 
+        ],
+        "media":"#",
+        "trigger":null
+    },
+    "STEP_5":{
+        "replyMessage":[
+            "Perfecto, al parecer tienes dudas o problemas con tu cuenta de Siebel... \n",
+            "*(51)* ¿Cómo puedo cambiar mi contraseña de Siebel? \n",
+            "*(52)* No puedo acceder a Siebel\n",
+            "*(53)* ¿Cómo solicitar una cuenta? \n\n"
+        ],
+        "media":"#",
+        "trigger":null
+    },
+    "STEP_5_1":{
+        "replyMessage":[
+            "Las credenciales de acceso en Siebel corresponden a las mismas de Falanet, si cuentas con problemas para acceder a Falanet favor validar cuenta con RRHH  \n",
+            "Para volver al apartado anterior *Siebel* o bien, ir al inicio de la conversacion *menú* \n" 
+        ],
+        "media":"#",
+        "trigger":null
+    },
+    "STEP_5_2":{
+        "replyMessage":[
+            " Si al ingresar tus credenciales muestra el siguiente mensaje: *No permite acceder a la vista home page view * \n ",
+            " Debes contactar con el operador de tienda para regularizar dicha cuenta \n\n",
+            "Para volver al apartado anterior *Siebel* o bien, ir al inicio de la conversacion *menú* \n" 
+        ],
+        "media":"#",
+        "trigger":null
+    },
+    "STEP_5_3":{
+        "replyMessage":[
+            " Para solicitar una cuenta en Siebel debe ser canalizada en el portal Digital Workplace, en formulario *Solicitud usuario Siebel * \n ",
+            " Caso de no poder generar la solicitud, contactar con el Operador de tienda \n\n",
+            "Para volver al apartado anterior *Siebel* o bien, ir al inicio de la conversacion *menú* \n" 
+        ],
+        "media":"#",
+        "trigger":null
+    },
+    "STEP_6":{
+        "replyMessage":[
+            " Bienvenido a la lista de preguntas frecuentes, espero te sean de utilidad. \n ",
+            "*(61)* Pregunta 1 \n",
+            "*(62)* Pregunta 2 \n" ,
+            "*(63)* Pregunta 3 \n" ,
+            "*(64)* Pregunta 4 \n" 
+       
+        ],
+        "media":"#",
+        "trigger":null
+    },
+
+
+
+
+
+    "STEP_":{
+        "replyMessage":[
+
+        ],
+        "media":null,
         "trigger":null
     }
 }
