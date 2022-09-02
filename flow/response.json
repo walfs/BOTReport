@@ -18,78 +18,126 @@
     },
     "STEP_1":{
         "replyMessage":[
-            "Bienvenido al reporte de incidencias *Falabella Antofagasta* \n",
-            "Para ayudarte a conocer las opciones presiona *(1)* \n",
-            "\n.Si necesitas ayuda con tu cuenta",
-            " escribe *NT*, *SRX*, *MSTR* o *Siebel*"
+            "👋 ¡Hola! Soy Lab, bot de soporte de incidencias en Falabella Antofagasta 🦾 \n\n",
+            "Estoy aqui para ayudarte y hacer frente ante cualquier incidencia escribe *(0)* para inciar.\n\n",
+            "Puedes escribir *menú* en cualquier punto de la conversacion para ver todo lo que puedo hacer ✌\n\n",
+            "Si tienes dudas o eres nuevo/a colaborador intenta escribiendo... \n\n",
+            "*NT* - *SRX* - *MSTR* - *Siebel* \n",
+            "o bien, *lista* de preguntas frecuentas \n"
         ],
-        "media":"#",
-        "trigger":null,
-        "actions":{
-            "title":"¿Que deseas reportar?",
-            "message":"Recuerda validar la incidencia antes de reportar",
-            "footer":"Gracias",
-            "buttons":[
-                {"body":"Calzado varon"},
-                {"body":"Click and Collcet"},
-                {"body":"Trastienda"}
-            ]
-        }
+        "media":null,
+        "trigger":null
     },
     "STEP_2":{
         "replyMessage":[
-            "Perfecto, te voy a pasar la lista ",
-            "de los temas que tengo y un breve video 🙂🤖 \n\n",
-            "*Angular* Basico (Pago) \n",
-            "*Angular* Basico (Gratis) \n",
-            "*Node* Basico (Gratis) \n",
-            "*NGRX* Basico (Gratis) \n",
-            "*AWS* Basico (Pago) \n\n",
-            "Escribe la palabra del tema que te interese \n"
+            "Bien, al parecer tienes dudas o problemas con tu correo corporativo... \n",
+            "éstas opciones te pueden ser de utilidad \n\n",
+            "*(21)* No me sé la contraseña de mi cuenta\n",
+            "*(22)* ¿Cómo puedo cambiar la contraseña?\n",
+            "*(23)* ¿Cómo saber el nombre de mi correo corporativo?\n"
         ],
-        "media":"https://i.giphy.com/media/5J5gN0WUk0VToHaK2p/giphy-downsized.gif",
+        "media":"#",
         "trigger":null
     },
     "STEP_2_1":{
         "replyMessage":[
-            "Si tienes problemas con tu *contrasena* de tu correo corporativo\n",
-            "*(Mesa de ayuda Falabella)* +56223859192 \n\n"
-            
+            "Bien, para restablecer tu contraseña de tu cuenta NT y puedas iniciar sesion en tu PC, Venta Guiada, Correo, Digital Workplace, entre otros\n\n",
+            "El flujo más rápido es llamando a la mesa de ayuda, 📱 *+56223859192* \n",
+            "te pediran que te identifiques, nombre y rut. Luego te asignaran una nueva contraseña. \n\n",
+
+            "Para volver al apartado anterior *NT* o bien, ir al inicio de la conversacion *menú* \n"                           
         ],
         "media":"#",
         "trigger":null
     },
     "STEP_2_2":{
         "replyMessage":[
-            "Si deseas *cambiar* la contrasena de tu cuenta en SRX \n",
-            "Ingresa a Falanet - *Aplicativos/RTL-Chile* \n\n",
-            "Recuerda sacarle una foto a tu contrasena temporal antes de cerrar la ventan 📸​"
+            "Para cambiar la contraseña de tu correo corporativo lo puedes hacer de dos formas: \n\n",
+            "Ingresando desde cualquier navegador y red a https://www.office.com \n\n",
+            "Y desde la red Falabella ingresando a https://apps.falabella.com/\n​",
+            "- ingresar las credenciales de la cuenta\n​",
+            "- Esquina superior derecha seleccionar *cambiar contraseña*\n\n​",
+
+            "De todas maneras adjunto instructivo para el cambio de contraseña mediante la primera opción\n\n",
+
+            "Para volver al apartado anterior *NT* o bien, ir al inicio de la conversacion *menú* \n"  
            
         ],
-        "media":null,
+        "media":"instructivoNT.pdf",
         "trigger":null
     },
     "STEP_2_3":{
         "replyMessage":[
-            "Si deseas *cambiar* la contrasena de Microstrategy\n",
-            "Ingresa a Falanet - *Aplciativos/Microstrategy* \n\n",
-            "Si tienes problemas para cambiar la contrasena, contactar al *Operador*"
+            "Perfecto, si no sabes el nombre de tu cuenta NT o correo corporativo debes dirigirte a *RRHH* para que te indiquen el nombre de tu cuenta, normalmente empieza con tu incial del primero nombre luego parte de tu segundo nombre y finaliza con tu primer apellido\n\n",
+           
+            "Para volver al apartado anterior *NT* o bien, ir al inicio de la conversacion *menú* \n"  
+       
         ],
         "media":null,
         "trigger":null
     },
-    "STEP_2_4":{
-        "replyMessage":[
-            "Si tienes problemas con el acceso a Siebel \n",
-            "*(Por inactividad)* Contactar al *Operador* \n"
-            
-        ],
-        "media":null,
-        "trigger":null
-    },
+    
     "STEP_3":{
         "replyMessage":[
-            "Perfecto, te voy a pasar la lista de la categoria afectada: \n",
+            "Perfecto, al parecer tienes dudas o problemas con tu cuenta en SRX... \n",
+            "*(31)* ¿Cómo puedo cambiar la contraseña de mi cuenta en SRX? \n",
+            "*(32)* ¿Cómo saber si engo cuenta en SRX?\n",
+            "*(33)* ¿Cómo solicitar una cuenta? \n\n"
+
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_3_1":{
+        "replyMessage":[
+            "Para hacer el cambio debes ingresar a tu Falanet desde red Falabella y Microsoft Edge \n",
+            "Luego debes dirigirte al apartado de *Aplicaciones/RTL-Chile* y seleccionar cambiar contraseña \n\n",
+
+            "Para volver al apartado anterior *SRX* o bien, ir al inicio de la conversacion *menú* \n"  
+        ],
+        "media":"#",
+        "trigger":null
+    },
+    "STEP_3_2":{
+        "replyMessage":[
+            "Para validar si tienes acceso a SRX debes ingresar a tu Falanet e ir al apartado de Aplicaciones, debes buscar RTL-Chile e ingresar al modulo. \n",
+            "Si no te aparece el boton de cambiar contraseña significa que aun no tienes asignada una cuenta.\n\n",
+            "Para volver al apartado anterior *SRX* o bien, ir al inicio de la conversacion *menú* \n"  
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_3_3":{
+        "replyMessage":[
+            "Para solcitar la creacion de una cuenta en SRX debes solicitarlo con tu jefatura directa para que genere la solicitud.\n",
+            "Si por algun motivo se desconoce o se cuenta con problemas para la generacion de la cuenta en SRX enviar correo al operador de tienda facilitando los datos del colaborador. \n\n",  
+            "Para volver al apartado anterior *SRX* o bien, ir al inicio de la conversacion *menú* \n"  
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_4":{
+        "replyMessage":[
+            "Perfecto, al parecer tienes dudas o problemas con tu cuenta de Microstrategy... \n",
+            "*(41)* ¿Cómo puedo cambiar mi contraseña de Microstrategy? \n",
+            "*(42)* ¿No tengo habilitados los botones en Money Mapping?\n",
+            "*(43)* ¿Cómo solicitar una cuenta? \n\n"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_4_1":{
+        "replyMessage":[
+            "Para realizar el cambio de tu contraseña en Microstrategy debes ingresar a tu Falanet e ir al apartado de Aplicaciones-Microstrategy y pinchar el boton de cambiar contraseña\n",
+            "Si no logras realizar el cambio de tu contraseña favor contactar con el operador \n\n",
+            "Para volver al apartado anterior *MSTR* o bien, ir al inicio de la conversacion *menú* \n"  
+        
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_4_2":{
+        "replyMessage":[
             "Click and Collect -> *(2)* \n",
             "Control de acceso -> *(3)* \n",
             "Ipad -> *(4)* \n",
@@ -99,65 +147,8 @@
             "PDA -> *(8)* \n",
             "Connect -> *(9)* \n",
             "Otros equipos tienda -> *(9)* \n"
-
-
-        ],
-        "media":null,
-        "trigger":null
-    },
-    "STEP_4":{
-        "replyMessage":[
-            "Con gusto! \n"
         ],
         "media":"#",
-        "trigger":null
-    },
-    "STEP_5":{
-        "replyMessage":[
-            "Que describe mejor tu problema? \n",
-            "Impresora OMS -> *(I)*\n",
-            "Turnero -> *(T)*\n",
-            "Indisponibilidad general -> *(IG)*\n\n",
-            "Si no se encuentra la categoria favor escribirla acontinuacion \n"
-        ],
-        "media":null,
-        "trigger":null
-    },
-    "STEP_5_1":{
-        "replyMessage":[
-            "***Impresora OMS*** \n",
-            "Incidencia en analisis, Volver al menu principal *(Menu)* \n"
-        ],
-        "media":null,
-        "trigger":null
-    },
-    "STEP_6":{
-        "replyMessage":[
-            "Perfecto, te voy a pasar la lista ",
-            "de los temas que tengo y un breve video 🙂🤖 \n\n",
-            "*Angular* Basico (Pago) \n",
-            "*Angular* Basico (Gratis) \n",
-            "*Node* Basico (Gratis) \n",
-            "*NGRX* Basico (Gratis) \n",
-            "*AWS* Basico (Pago) \n\n",
-            "Escribe la palabra del tema que te interese \n"
-        ],
-        "media":"https://i.giphy.com/media/5J5gN0WUk0VToHaK2p/giphy-downsized.gif",
-        "trigger":null
-    },
-    "STEP_7":{
-        "replyMessage":[
-            "Vente al telegram \n",
-            "https://t.me/leifermendez \n"
-        ],
-        "media":null,
-        "trigger":null
-    },
-    "STEP_8":{
-        "replyMessage":[
-            "Esto es una nota de voz \n"
-        ],
-        "media":"nota-de-voz.mp3",
         "trigger":null
     }
 }

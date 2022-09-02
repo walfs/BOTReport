@@ -14,95 +14,81 @@
             "ayuda",
             "falabella",
             "antofagasta",
+            "menu",
             "necesito saber"
         ],
         "key": "STEP_1"
     },
     {
         "keywords":  [
-            "NT",
-            "SRX",
-            "MSTR"        ],
+            "nt"
+             ],
         "key": "STEP_2"
     },
     {
         "keywords":  [
-            "NT",
-            "Nt",
-            "nt"
+            "21"
         ],
         "key": "STEP_2_1"
     },
     {
         "keywords":  [
-            "SRX",
-            "srx",
-            "Srx"
+            "22"
         ],
         "key": "STEP_2_2"
     },
     {
         "keywords":  [
-            "MSRT",
-            "mstr",
-            "Msrt"
+            "23"
+            
         ],
         "key": "STEP_2_3"
     },
     {
         "keywords":  [
-            "Siebel"
-        ],
-        "key": "STEP_2_4"
-    },
-    {
-        "keywords":  [
-            "1",
-            "Uno",
-            "UNO",
-            "Opciones",
-            "Lista",
-            "Menu",
-            "MENU"
+            "srx"
         ],
         "key": "STEP_3"
     },
     {
         "keywords":  [
-            "muchas gracias",
-            "ok",
-            "chao",
-            "gracias",
-            "vale gracias"
+            "31"
+            
+        ],
+        "key": "STEP_3_1"
+    },
+    {
+        "keywords":  [
+            "32"
+            
+        ],
+        "key": "STEP_3_2"
+    },
+    {
+        "keywords":  [
+            "33"
+            
+        ],
+        "key": "STEP_3_3"
+    },
+    {
+        "keywords":  [
+            "mstr",
+            "microstrategy"
         ],
         "key": "STEP_4"
     },
     {
         "keywords":  [
-            "2",
-            "dos"
+            "41"
         ],
-        "key": "STEP_5"
+        "key": "STEP_4_1"
     },
     {
         "keywords":  [
-            "I",
-            "i",
-            ""
+            "42"
         ],
-        "key": "STEP_5_1"
-    },
-    {
-        "keywords":  [
-            "VER_CURSOS"
-        ],
-        "key": "STEP_6"
-    },
-    {
-        "keywords":  [
-            "telegram"
-        ],
-        "key": "STEP_7"
+        "key": "STEP_4_2"
     },
     {
         "keywords":  [
