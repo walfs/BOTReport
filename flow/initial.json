@@ -4,9 +4,7 @@
             "hola",
             "hola!",
             "ola",
-            "problema",
             "inicio",
-            "reportar",
             "welcome",
             "buenos días",
             "buenas tardes",
@@ -21,7 +19,8 @@
     },
     {
         "keywords":  [
-            "nt"
+            "nt",
+            "cc"
              ],
         "key": "STEP_2"
     },
@@ -92,9 +91,113 @@
     },
     {
         "keywords":  [
-            "audio"
+            "43"
         ],
-        "key": "STEP_8"
+        "key": "STEP_4_3"
+    },
+    {
+        "keywords":  [
+            "siebel"
+        ],
+        "key": "STEP_5"
+    },
+    {
+        "keywords":  [
+            "51"
+        ],
+        "key": "STEP_5_1"
+    },
+    {
+        "keywords":  [
+            "52"
+        ],
+        "key": "STEP_5_2"
+    },
+    {
+        "keywords":  [
+            "53"
+        ],
+        "key": "STEP_5_3"
+    },
+    {
+        "keywords":  [
+            "revisar reporte"
+        ],
+        "key": "STEP_6"
+    },
+    {
+        "keywords":  [
+            "61"
+        ],
+        "key": "STEP_6_1"
+    },
+    {
+        "keywords":  [
+            "62"
+        ],
+        "key": "STEP_6_2"
+    },
+    {
+        "keywords":  [
+            "63"
+        ],
+        "key": "STEP_6_3"
+    },
+    {
+        "keywords":  [
+            "64"
+        ],
+        "key": "STEP_6_4"
+    },
+    {
+        "keywords":  [
+            "65"
+        ],
+        "key": "STEP_6_5"
+    },
+    {
+        "keywords":  [
+            "66"
+        ],
+        "key": "STEP_6_6"
+    },
+    {
+        "keywords":  [
+            "67"
+        ],
+        "key": "STEP_6_7"
+    },
+    {
+        "keywords":  [
+            "68"
+        ],
+        "key": "STEP_6_8"
+    },
+    {
+        "keywords":  [
+            "69"
+        ],
+        "key": "STEP_6_9"
+    },
+    {
+        "keywords":  [
+            "610"
+        ],
+        "key": "STEP_6_10"
+    },
+    {
+        "keywords":  [
+            "enviar incidencia"
+        ],
+        "key": "STEP_0"
+    },
+    {
+        "keywords":  [
+            "preguntas frecuentes"
+        ],
+        "key": "STEP_PF"
     }
    
+
+
 ]

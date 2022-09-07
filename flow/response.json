@@ -9,7 +9,7 @@
     },
     "STEP_0":{
         "replyMessage":[
-            "Bienvenido a la lista de incidencias a reportar, favor analizar y seleccionar la categoria correspondiente \n\n",
+            "Lista de incidencias a reportar, favor analizar y seleccionar la categoria correspondiente \n\n",
             "*(1)* Abastecimiento\n",
             "*(2)* Click and Collect\n",
             "*(3)* Control de acceso\n",
@@ -25,16 +25,25 @@
         "trigger":null
     },
     "STEP_1":{
-        "replyMessage":[
-            "👋 ¡Hola! Soy Lab, bot de soporte de incidencias en Falabella Antofagasta 🦾 \n\n",
-            "Estoy aqui para ayudarte y hacer frente ante cualquier incidencia escribe *(0)* para inciar.\n\n",
-            "Puedes escribir *menú* en cualquier punto de la conversacion para ver todo lo que puedo hacer ✌\n\n",
-            "Si tienes dudas o eres nuevo/a colaborador intenta escribiendo... \n\n",
-            "*NT* - *SRX* - *MSTR* - *Siebel* \n",
-            "o bien, *lista* de preguntas frecuentas \n"
-        ],
+        
         "media":null,
-        "trigger":null
+        "trigger":null,
+        "actions":{
+            "title":"👋 ¡Hola! Soy Lab",
+            "message":"Bot soporte de incidencias en Falabella Antofagasta 🦾 \n\nEstoy aqui para ayudarte y hacer frente ante cualquier incidencia \n\nSi tienes dudas o eres nuevo/a colaborador *preguntas frecuentes* puede ser de utilidad \n\nPuedes escribir *menú* en cualquier punto de la conversacion.",
+            "footer":"Mesa de ayuda +56223859192 - Anexo 9192",
+            "buttons":[
+                {"body":"Enviar incidencia"},
+                {"body":"Revisar reporte"},
+                {"body":"Preguntas frecuentes"}
+            ]
+        },
+        "replyMessage":[
+            "",
+            "",
+            "",
+            ""
+        ]
     },
     "STEP_2":{
         "replyMessage":[
@@ -199,18 +208,26 @@
     },
     "STEP_6":{
         "replyMessage":[
-            " Bienvenido a la lista de preguntas frecuentes, espero te sean de utilidad. \n ",
-            "*(61)* Pregunta 1 \n",
-            "*(62)* Pregunta 2 \n" ,
-            "*(63)* Pregunta 3 \n" ,
-            "*(64)* Pregunta 4 \n" 
+            "Perfecto, dentro de unos minutos recibirás mas información relacionada al incidente reportado. \n\n ",
+            "Ir al inicio de la conversacion *menú* \n"
        
         ],
         "media":"#",
         "trigger":null
     },
 
-
+  "STEP_PF":{
+        "replyMessage":[
+            "Bienvenido a las preguntas frecuentes, En cada opcion se despliegan preguntas relacionado al item seleccionado.  \n\n ",
+            "*(NT)* Correo Corporativo \n",
+            "*(SRX)* Cuenta en SRX-RTL \n",
+            "*(MSTR)* Gesiton venta, Microstrategy \n",
+            "*(Siebel)* Usuario Siebel \n"
+       
+        ],
+        "media":"#",
+        "trigger":null
+    },
 
 
 
