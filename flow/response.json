@@ -9,7 +9,7 @@
     },
     "STEP_0":{
         "replyMessage":[
-            "Lista de incidencias a reportar, favor analizar y seleccionar la categoria correspondiente \n\n",
+            "Favor analizar y seleccionar la categoria correspondiente \n\n",
             "*(1)* Abastecimiento\n",
             "*(2)* Click and Collect\n",
             "*(3)* Control de acceso\n",
@@ -24,24 +24,21 @@
         "media":null,
         "trigger":null
     },
-    "STEP_1":{
+    "STEP_Home":{
         
         "media":null,
         "trigger":null,
         "actions":{
             "title":"👋 ¡Hola! Soy Lab",
             "message":"Bot soporte de incidencias en Falabella Antofagasta 🦾 \n\nEstoy aqui para ayudarte y hacer frente ante cualquier incidencia \n\nSi tienes dudas o eres nuevo/a colaborador *preguntas frecuentes* puede ser de utilidad \n\nPuedes escribir *menú* en cualquier punto de la conversacion.",
-            "footer":"Mesa de ayuda +56223859192 - Anexo 9192",
+            "footer":"Mesa de ayuda (+56223859192) ",
             "buttons":[
-                {"body":"Enviar incidencia"},
-                {"body":"Revisar reporte"},
+                {"body":"Reportar incidencia"},
+                {"body":"Consultar estado"},
                 {"body":"Preguntas frecuentes"}
             ]
         },
         "replyMessage":[
-            "",
-            "",
-            "",
             ""
         ]
     },
@@ -49,9 +46,9 @@
         "replyMessage":[
             "Bien, al parecer tienes dudas o problemas con tu correo corporativo... \n",
             "éstas opciones te pueden ser de utilidad \n\n",
-            "*(21)* No me sé la contraseña de mi cuenta\n",
-            "*(22)* ¿Cómo puedo cambiar la contraseña?\n",
-            "*(23)* ¿Cómo saber el nombre de mi correo corporativo?\n"
+            "*(100)* No me sé la contraseña de mi cuenta\n",
+            "*(101)* ¿Cómo puedo cambiar la contraseña?\n",
+            "*(102)* ¿Cómo saber el nombre de mi correo corporativo?\n"
         ],
         "media":"#",
         "trigger":null
@@ -97,9 +94,9 @@
     "STEP_3":{
         "replyMessage":[
             "Perfecto, al parecer tienes dudas o problemas con tu cuenta en SRX... \n",
-            "*(31)* ¿Cómo puedo cambiar la contraseña de mi cuenta en SRX? \n",
-            "*(32)* ¿Cómo saber si tengo cuenta en SRX?\n",
-            "*(33)* ¿Cómo solicitar una cuenta? \n\n"
+            "*(200)* ¿Cómo puedo cambiar la contraseña de mi cuenta en SRX? \n",
+            "*(201)* ¿Cómo saber si tengo cuenta en SRX?\n",
+            "*(202)* ¿Cómo solicitar una cuenta? \n\n"
 
         ],
         "media":null,
@@ -136,9 +133,9 @@
     "STEP_4":{
         "replyMessage":[
             "Perfecto, al parecer tienes dudas o problemas con tu cuenta de Microstrategy... \n",
-            "*(41)* ¿Cómo puedo cambiar mi contraseña de Microstrategy? \n",
-            "*(42)* ¿No tengo habilitados los botones en Money Mapping?\n",
-            "*(43)* ¿Cómo solicitar una cuenta? \n\n"
+            "*(300)* ¿Cómo puedo cambiar mi contraseña de Microstrategy? \n",
+            "*(301)* ¿No tengo habilitados los botones en Money Mapping?\n",
+            "*(302)* ¿Cómo solicitar una cuenta? \n\n"
         ],
         "media":null,
         "trigger":null
@@ -173,16 +170,16 @@
     "STEP_5":{
         "replyMessage":[
             "Perfecto, al parecer tienes dudas o problemas con tu cuenta de Siebel... \n",
-            "*(51)* ¿Cómo puedo cambiar mi contraseña de Siebel? \n",
-            "*(52)* No puedo acceder a Siebel\n",
-            "*(53)* ¿Cómo solicitar una cuenta? \n\n"
+            "*(400)* ¿Cómo puedo cambiar mi contraseña de Siebel? \n",
+            "*(401)* No puedo acceder a Siebel\n",
+            "*(402)* ¿Cómo solicitar una cuenta? \n\n"
         ],
         "media":"#",
         "trigger":null
     },
     "STEP_5_1":{
         "replyMessage":[
-            "Las credenciales de acceso en Siebel corresponden a las mismas de Falanet, si cuentas con problemas para acceder a Falanet favor validar cuenta con RRHH  \n",
+            "Las credenciales de acceso en Siebel corresponden a las mismas de Falanet, si cuentas con problemas para acceder a Falanet favor validar cuenta con RRHH  \n\n",
             "Para volver al apartado anterior *Siebel* o bien, ir al inicio de la conversacion *menú* \n" 
         ],
         "media":"#",
@@ -191,7 +188,7 @@
     "STEP_5_2":{
         "replyMessage":[
             " Si al ingresar tus credenciales muestra el siguiente mensaje: *No permite acceder a la vista home page view * \n ",
-            " Debes contactar con el operador de tienda para regularizar dicha cuenta \n\n",
+            "Debes contactar con el operador de tienda para regularizar dicha cuenta \n\n",
             "Para volver al apartado anterior *Siebel* o bien, ir al inicio de la conversacion *menú* \n" 
         ],
         "media":"#",
@@ -208,21 +205,21 @@
     },
     "STEP_6":{
         "replyMessage":[
-            "Perfecto, dentro de unos minutos recibirás mas información relacionada al incidente reportado. \n\n ",
-            "Ir al inicio de la conversacion *menú* \n"
+            "*****Obteniendo informacion*****. \n ",
+            "Dentro de unos minutos obtendras respuesta del incidente reportado. \n\n "
        
         ],
-        "media":"#",
+        "media":"monitoring.jpg",
         "trigger":null
     },
 
   "STEP_PF":{
         "replyMessage":[
-            "Bienvenido a las preguntas frecuentes, En cada opcion se despliegan preguntas relacionado al item seleccionado.  \n\n ",
-            "*(NT)* Correo Corporativo \n",
-            "*(SRX)* Cuenta en SRX-RTL \n",
-            "*(MSTR)* Gesiton venta, Microstrategy \n",
-            "*(Siebel)* Usuario Siebel \n"
+            "Preguntas frecuentes, En cada opcion se despliegan preguntas relacionado al item interactuado, intenta escribiendo NT, SRX, MSTR, Siebel...  \n\n ",
+            "-.Preguntas relacionadas a cuenta *NT*, Correo corporativo. \n",
+            "-.Cuentas en *SRX*-RTL. \n",
+            "-.Gesiton venta, Microstrategy *MSTR*. \n",
+            "-.Usuarios *Siebel*. \n"
        
         ],
         "media":"#",
@@ -237,5 +234,126 @@
         ],
         "media":null,
         "trigger":null
+    },
+    "STEP_Gracias":{
+        "media":null,
+        "trigger":null,
+        "actions":{
+            "title":"",
+            "message":"¡Con gusto!\n\nRecuerda que puedes volver a reportar un incidente en cualquier momento.",
+            "footer":"",
+            "buttons":[
+                {"body":"Volver al menú"}
+            ]
+        },
+        "replyMessage":[""
+        ]
+    },
+    "STEP_Abastecimiento":{
+        "replyMessage":[
+            "Cuentas con incidente en ABASTECIMIENTO, selecionar opcion:  \n\n ",
+            "*(11)*-PDA/LIA. \n"
+       
+        ],
+        "media":"#",
+        "trigger":null
+    },
+    "STEP_1.1":{
+        "replyMessage":[
+            "-PDA/LIA-  \n\n ",
+            "*(111)*-Problema para incializar el aplicativo. \n",
+            "*(112)*-No imprime la etiqueta. \n"
+       
+        ],
+        "media":"#",
+        "trigger":null
+        
+    },
+    "STEP_1.1.1":{
+        "media":null,
+        "trigger":null,
+        "actions":{
+            "title":"",
+            "message":"***Incidente enviado***\n -PDA/LIA- \n Está siendo revisado, pronto recibirás informacion.",
+            "footer":"",
+            "buttons":[
+                {"body":"Volver al menú"}
+            ]
+        },
+        "replyMessage":[""
+        ]
+        
+        
+    },
+    "STEP_C&C":{
+        "replyMessage":[
+            "Cuentas con incidente en CLICK AND COLLECT, selecionar opcion:  \n\n ",
+            "*(21)*-Impresora OMS. \n",
+            "*(22)*-Tuerno. \n"
+       
+        ],
+        "media":"#",
+        "trigger":null
+        
+        
+    },
+    "STEP_2.1":{
+        "replyMessage":[
+            "-Impresora OMS-  \n\n ",
+            "*(211)*-No imprime. \n",
+            "*(222)*-Error al agregar impresora. \n"
+       
+        ],
+        "media":"#",
+        "trigger":null
+        
+        
+    },
+    "STEP_2.2":{
+        "media":null,
+        "trigger":null,
+        "actions":{
+            "title":"",
+            "message":"***Incidente enviado***\n -Impresora OMS- \n Está siendo revisado, pronto recibirás informacion.",
+            "footer":"",
+            "buttons":[
+                {"body":"Volver al menú"}
+            ]
+        },
+        "replyMessage":[""
+        ]
+        
+        
+    },
+    "STEP_2.3":{
+        "replyMessage":[
+            "-Turnero-  \n\n ",
+            "*(212)*-No imprime tickets. \n",
+            "*(223)*-No avanzan los numeros. \n",
+            "*(224)*-Sistema pegado. \n",
+            "*(225)*-No enciende. \n"
+       
+        ],
+        "media":"#",
+        "trigger":null
+        
+        
+    },
+    "STEP_2.4":{
+        "media":null,
+        "trigger":null,
+        "actions":{
+            "title":"",
+            "message":"***Incidente enviado***\n -Turnero- \n Está siendo revisado, pronto recibirás informacion.",
+            "footer":"",
+            "buttons":[
+                {"body":"Volver al menú"}
+            ]
+        },
+        "replyMessage":[""
+        ]
+        
+        
     }
+    
 }

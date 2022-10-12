@@ -13,32 +13,35 @@
             "falabella",
             "antofagasta",
             "menu",
-            "necesito saber"
+            "necesito saber",
+            "volver al menú",
+            "hola! necesito ayuda"
         ],
-        "key": "STEP_1"
+        "key": "STEP_Home"
     },
     {
         "keywords":  [
             "nt",
-            "cc"
+            "correo corporativo",
+            "cuenta nt"
              ],
         "key": "STEP_2"
     },
     {
         "keywords":  [
-            "21"
+            "100"
         ],
         "key": "STEP_2_1"
     },
     {
         "keywords":  [
-            "22"
+            "101"
         ],
         "key": "STEP_2_2"
     },
     {
         "keywords":  [
-            "23"
+            "102"
             
         ],
         "key": "STEP_2_3"
@@ -51,21 +54,21 @@
     },
     {
         "keywords":  [
-            "31"
+            "200"
             
         ],
         "key": "STEP_3_1"
     },
     {
         "keywords":  [
-            "32"
+            "201"
             
         ],
         "key": "STEP_3_2"
     },
     {
         "keywords":  [
-            "33"
+            "202"
             
         ],
         "key": "STEP_3_3"
@@ -73,55 +76,62 @@
     {
         "keywords":  [
             "mstr",
-            "microstrategy"
+            "microstrategy",
+            "gestion venta",
+            "gestion",
+            "venta"
         ],
         "key": "STEP_4"
     },
     {
         "keywords":  [
-            "41"
+            "300"
         ],
         "key": "STEP_4_1"
     },
     {
         "keywords":  [
-            "42"
+            "301"
         ],
         "key": "STEP_4_2"
     },
     {
         "keywords":  [
-            "43"
+            "302"
         ],
         "key": "STEP_4_3"
     },
     {
         "keywords":  [
-            "siebel"
+            "siebel",
+            "usuario siebel",
+            "usuarios siebel",
+            "problema cuenta siebel",
+            "problema siebel"
         ],
         "key": "STEP_5"
     },
     {
         "keywords":  [
-            "51"
+            "400"
         ],
         "key": "STEP_5_1"
     },
     {
         "keywords":  [
-            "52"
+            "401"
         ],
         "key": "STEP_5_2"
     },
     {
         "keywords":  [
-            "53"
+            "402"
         ],
         "key": "STEP_5_3"
     },
     {
         "keywords":  [
-            "revisar reporte"
+            "consultar estado"
         ],
         "key": "STEP_6"
     },
@@ -187,7 +197,7 @@
     },
     {
         "keywords":  [
-            "enviar incidencia"
+            "reportar incidencia"
         ],
         "key": "STEP_0"
     },
@@ -196,7 +206,72 @@
             "preguntas frecuentes"
         ],
         "key": "STEP_PF"
+    },
+    {
+        "keywords":  [
+            "gracias",
+            "vale",
+            "muy bien",
+            "chao",
+            "ok",
+            "adios",
+            "hasta luego"
+        ],
+        "key": "STEP_Gracias"
+    },
+    {
+        "keywords":  [
+            "1"
+        ],
+        "key": "STEP_Abastecimiento"
+    },
+    {
+        "keywords":  [
+            "11"
+        ],
+        "key": "STEP_1.1"
+    },
+    {
+        "keywords":  [
+            "111",
+            "112"
+        ],
+        "key": "STEP_1.1.1"
+    },
+    {
+        "keywords":  [
+            "2"
+        ],
+        "key": "STEP_C&C"
+    },
+    {
+        "keywords":  [
+            "21"
+        ],
+        "key": "STEP_2.1"
+    },
+    {
+        "keywords":  [
+            "211"
+        ],
+        "key": "STEP_2.2"
+    },
+    {
+        "keywords":  [
+            "22"
+        ],
+        "key": "STEP_2.3"
+    },
+    {
+        "keywords":  [
+            "212",
+            "223",
+            "224",
+            "225"
+        ],
+        "key": "STEP_2.4"
     }
+ 
    
 
 
